@@ -57,9 +57,9 @@ spec:
         - --random-error=false
         env:
         - name: PODINFO_UI_MESSAGE
-          value: "Welcome to Flux"
+          value: "Bazinga"
         - name: PODINFO_UI_COLOR
-          value: "#911a1a"
+          value: "#17aec2"
         livenessProbe:
           httpGet:
             path: /healthz
